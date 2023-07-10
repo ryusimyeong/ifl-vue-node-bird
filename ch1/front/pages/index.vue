@@ -1,12 +1,14 @@
 <template>
-  <div>Hello {{ name }}</div>
+  <div>
+    <div>{{ name }}</div>
+  </div>
 </template>
 
 <script>
 export default {
   data() {
     return {
-      name: 'Nuxt.js',
+      name: 'INDEX',
     };
   },
 };

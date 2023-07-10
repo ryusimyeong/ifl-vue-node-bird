@@ -1,12 +1,20 @@
 <template>
-  <div>SIGNUP</div>
+  <div>
+    <div>{{ name }}</div>
+  </div>
 </template>
 
 <script>
 export default {
   data() {
     return {
-      name: 'Nuxt.js',
+      name: 'SIGNUP',
+    };
+  },
+
+  head() {
+    return {
+      title: '회원가입',
     };
   },
 };
